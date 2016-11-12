@@ -3,8 +3,7 @@ package org.thejavaguy.hackerrank.strings.easy;
 import java.util.Scanner;
 
 /**
- * @author ivan
- *
+ * @author Ivan Milosavljevic (TheJavaGuy)
  */
 public final class SuperReducedString {
     private static final String EMPTY_MARKER = "Empty String";

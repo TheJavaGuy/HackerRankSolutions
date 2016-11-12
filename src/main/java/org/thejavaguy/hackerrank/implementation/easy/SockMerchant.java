@@ -5,6 +5,9 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
 
+/**
+ * @author Ivan Milosavljevic (TheJavaGuy)
+ */
 public final class SockMerchant {
     private int pairs(final int[] colors) {
         int ret = 0;

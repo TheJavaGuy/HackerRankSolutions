@@ -3,8 +3,7 @@ package org.thejavaguy.hackerrank.strings.easy;
 import java.util.Scanner;
 
 /**
- * @author ivan
- *
+ * @author Ivan Milosavljevic (TheJavaGuy)
  */
 public final class CamelCase {
     public boolean startsWithLowercase(final String s) {

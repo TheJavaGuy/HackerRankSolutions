@@ -3,8 +3,7 @@ package org.thejavaguy.hackerrank.search.easy;
 import java.util.Scanner;
 
 /**
- * @author ivan
- *
+ * @author Ivan Milosavljevic (TheJavaGuy)
  */
 public final class SherlockAndArray {
     public long sum(final int[] arr) {

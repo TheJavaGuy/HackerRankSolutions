@@ -3,8 +3,7 @@ package org.thejavaguy.hackerrank.bitmanipulation.easy;
 import java.util.Scanner;
 
 /**
- * @author ivan
- *
+ * @author Ivan Milosavljevic (TheJavaGuy)
  */
 public final class FlippingBits {
     public static void main(String[] args) {

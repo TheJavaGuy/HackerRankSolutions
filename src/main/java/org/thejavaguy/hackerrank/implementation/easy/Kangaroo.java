@@ -3,17 +3,16 @@ package org.thejavaguy.hackerrank.implementation.easy;
 import java.util.Scanner;
 
 /**
- * @author ivan
- *
+ * @author Ivan Milosavljevic (TheJavaGuy)
  */
 public class Kangaroo {
     private static final String YES = "YES";
     private static final String NO = "NO";
-    
+
     private boolean alwaysAhead(final int x1, final int v1, final int x2, final int v2) {
         return (x1 >= x2 && v1 > v2) || (x2 >= x1 && v2 > v1) || (x1 > x2 && v1 >= v2) || (x2 > x1 && v2 >= v1);
     }
-    
+
     public static void main(String[] args) {
         Kangaroo app = new Kangaroo();
         Scanner in = null;
@@ -45,7 +44,7 @@ public class Kangaroo {
                     if (Math.ceil(stepsUntilMet) == Math.floor(stepsUntilMet)) {
                         System.out.println(YES);
                     } else {
-                        System.out.println(NO);    
+                        System.out.println(NO);
                     }
                 }
             }

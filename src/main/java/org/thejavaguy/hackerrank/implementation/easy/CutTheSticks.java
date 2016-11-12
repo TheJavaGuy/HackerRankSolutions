@@ -6,8 +6,7 @@ import java.util.ListIterator;
 import java.util.Scanner;
 
 /**
- * @author ivan
- *
+ * @author Ivan Milosavljevic (TheJavaGuy)
  */
 public final class CutTheSticks {
     public int lengthOfCut(final List<Integer> sticks) {

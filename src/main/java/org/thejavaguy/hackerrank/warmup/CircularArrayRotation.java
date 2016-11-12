@@ -3,14 +3,13 @@ package org.thejavaguy.hackerrank.warmup;
 import java.util.Scanner;
 
 /**
- * @author ivan
- *
+ * @author Ivan Milosavljevic (TheJavaGuy)
  */
 public class CircularArrayRotation {
     public void rotateRightCircular(final int[] arr) {
         rotateRightCircular(arr, 1);
     }
-    
+
     public void rotateRightCircular(final int[] arr, final int places) {
         final int[] last = new int[places];
         for (int i = 0; i < last.length; ++i) {
@@ -30,12 +29,10 @@ public class CircularArrayRotation {
             arr[i] = last[i];
         }
     }
-    
+
     public static void main(String[] args) {
-        Scanner in = null;
         CircularArrayRotation app = new CircularArrayRotation();
-        try {
-            in = new Scanner(System.in);
+        try (Scanner in = new Scanner(System.in)) {
             final int numberOfElements = in.nextInt();
             final int numberOfRotations = in.nextInt();
             final int numberOfQueries = in.nextInt();
@@ -51,10 +48,6 @@ public class CircularArrayRotation {
             app.rotateRightCircular(arr, realNumberOfRotations);
             for (int i = 0; i < numberOfQueries; ++i) {
                 System.out.println(arr[queries[i]]);
-            }
-        } finally {
-            if (in != null) {
-                in.close();
             }
         }
     }

@@ -3,8 +3,7 @@ package org.thejavaguy.hackerrank.dynamicprogramming.easy;
 import java.util.Scanner;
 
 /**
- * @author ivan
- *
+ * @author Ivan Milosavljevic (TheJavaGuy)
  */
 public final class TheMaximumSubarray {
     public long maxSubarray(final int[] arr) {

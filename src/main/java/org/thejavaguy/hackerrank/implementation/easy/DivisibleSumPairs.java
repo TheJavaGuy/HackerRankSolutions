@@ -3,8 +3,7 @@ package org.thejavaguy.hackerrank.implementation.easy;
 import java.util.Scanner;
 
 /**
- * @author ivan
- *
+ * @author Ivan Milosavljevic (TheJavaGuy)
  */
 public final class DivisibleSumPairs {
     public boolean divisible(final int first, final int second, final int k) {

@@ -3,8 +3,7 @@ package org.thejavaguy.hackerrank.implementation.easy;
 import java.util.Scanner;
 
 /**
- * @author ivan
- *
+ * @author Ivan Milosavljevic (TheJavaGuy)
  */
 public final class JumpingOnTheClouds {
     public boolean canJumpTwo(final int[] clouds, final int currentCloud) {

@@ -3,8 +3,7 @@ package org.thejavaguy.hackerrank.implementation.easy;
 import java.util.Scanner;
 
 /**
- * @author ivan
- *
+ * @author Ivan Milosavljevic (TheJavaGuy)
  */
 public class AngryProfessor {
     public static void main(String[] args) {

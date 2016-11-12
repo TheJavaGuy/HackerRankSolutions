@@ -6,13 +6,9 @@ import java.util.Scanner;
 import java.util.Set;
 
 /**
- * @author ivan
- *
+ * @author Ivan Milosavljevic (TheJavaGuy)
  */
 public final class Pangrams {
-    /**
-     * @param args
-     */
     public static void main(String[] args) {
         try (Scanner in = new Scanner(System.in)) {
             final String s = in.nextLine();
