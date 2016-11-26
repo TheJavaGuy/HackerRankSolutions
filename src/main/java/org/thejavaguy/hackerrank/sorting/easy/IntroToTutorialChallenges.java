@@ -1,4 +1,4 @@
-package org.thejavaguy.hackerrank.sorting;
+package org.thejavaguy.hackerrank.sorting.easy;
 
 import java.util.Scanner;
 
