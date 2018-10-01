@@ -6,6 +6,9 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
+/**
+ * @author Ivan Milosavljevic (TheJavaGuy)
+ */
 public final class ClosestNumbers {
     private final List<Pair> pairs;
 

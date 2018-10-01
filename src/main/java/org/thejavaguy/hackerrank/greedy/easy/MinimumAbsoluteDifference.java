@@ -3,6 +3,9 @@ package org.thejavaguy.hackerrank.greedy.easy;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * @author Ivan Milosavljevic (TheJavaGuy)
+ */
 public final class MinimumAbsoluteDifference {
     public static void main(String[] args) {
         try (Scanner in = new Scanner(System.in)) {

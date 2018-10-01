@@ -2,7 +2,10 @@ package org.thejavaguy.hackerrank.implementation.easy;
 
 import java.util.Scanner;
 
-public class TheHurdleRace {
+/**
+ * @author Ivan Milosavljevic (TheJavaGuy)
+ */
+public final class TheHurdleRace {
     public static void main(String[] args) {
         try (Scanner in = new Scanner(System.in)) {
             final int numberOfHurdles = in.nextInt();
@@ -17,7 +20,7 @@ public class TheHurdleRace {
             if (maxHurdle <= maximumHeight) {
                 System.out.println(0);
             } else {
-                System.out.println(maxHurdle - maximumHeight);    
+                System.out.println(maxHurdle - maximumHeight);
             }
         }
     }

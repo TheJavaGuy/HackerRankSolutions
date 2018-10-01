@@ -2,6 +2,9 @@ package org.thejavaguy.hackerrank.sorting.easy;
 
 import java.util.Scanner;
 
+/**
+ * @author Ivan Milosavljevic (TheJavaGuy)
+ */
 public final class CountingSort2 {
     public int[] countingSort(int[] arr, int[] counts) {
         int[] ret = new int[arr.length];

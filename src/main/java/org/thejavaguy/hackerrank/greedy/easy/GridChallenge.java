@@ -3,6 +3,9 @@ package org.thejavaguy.hackerrank.greedy.easy;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * @author Ivan Milosavljevic (TheJavaGuy)
+ */
 public final class GridChallenge {
     public String isGrid(char[][] matrix) {
         for (int row = 0; row < matrix.length - 1; ++row) {

@@ -2,6 +2,9 @@ package org.thejavaguy.hackerrank.sorting.easy;
 
 import java.util.Scanner;
 
+/**
+ * @author Ivan Milosavljevic (TheJavaGuy)
+ */
 public final class CountingSort1 {
     public static void main(String[] args) {
         try (Scanner in = new Scanner(System.in)) {

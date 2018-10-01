@@ -2,6 +2,9 @@ package org.thejavaguy.hackerrank.strings.easy;
 
 import java.util.Scanner;
 
+/**
+ * @author Ivan Milosavljevic (TheJavaGuy)
+ */
 public final class TwoCharacters {
     public String alternate(String input) {
         if (input.length() < 2) {
